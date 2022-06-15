@@ -1,0 +1,19 @@
+Given input object: {'1': {'name': 'arun', 'location': 'cbe', 'mobileno': '9944888466'}, '2': {'name': 'subramaniam', 'location': 'namakkal'}}
+========================================================
+output: 
+value of given key: "location" is ['cbe', 'namakkal']
+value of given key "mobileno" is: ['9944888466']
+value of given key "tce" is: None
+value of given key "t" is: None
+value of given key "2" is: [{'name': 'subramaniam', 'location': 'namakkal'}]
+========================================================
+Given input object: {'1': {'name': 'jasmine', 'color': 'white'}, '2': {'name': 'rose', 'color': {'pink', 'red', 'yellow'}}}
+========================================================
+output: 
+value of given key: "name" is ['jasmine', 'rose']
+value of given key: "color" is ['white', {'pink', 'red', 'yellow'}]
+========================================================
+Given input object: ['1', '2']
+========================================================
+output: 
+"invalid object, provide right input"
