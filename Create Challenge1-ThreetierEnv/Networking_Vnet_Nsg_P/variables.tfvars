@@ -1,0 +1,12 @@
+#vnetRG_names   = "test-prod-ci-vnet-rg" 
+location        = "centralindia"
+vnet_name       = "test-prod-ci-vnet"
+address_space   = ["10.0.0.0/16"]
+Subnet_names    = ["BastionSubnet", "test-prod-ci-gw-sn", "test-prod-ci-app-sn"]
+subnet_address  = ["10.0.0.0/24", "10.0.1.0/24", "10.0.2.0/24"]
+project         = "serviceapartmentbookingtool"
+environment     = "Production"
+nsgname = ["test-prod-ci-bastin-nsg","test-prod-ci-gw-nsg","test-prod-ci-app-nsg"]
+nicname = ["test-prod-ci-bastin-nic","test-prod-ci-appservervm-nic"]
+nicconf = ["test-prod-ci-bastin-nic-conf","test-prod-ci-appservervm-nic-conf"]
+pipname = ["test-prod-ci-bastin-pip01","test-prod-ci-appgw-pip01","test-prod-ci-appservervm-pip01"]
