@@ -1,0 +1,5 @@
+rgname="test-prod-ci-rg001"
+location="centralindia"
+project="BookingTool"
+environment="Production"
+mysqlname="test-prod-ci-mysql01"
